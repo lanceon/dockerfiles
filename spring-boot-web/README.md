@@ -4,12 +4,10 @@ Copy your application JAR files into the working directoryand set your entrypoin
 
 For example:
 
-    ENTRYPOINT ["java", "-jar", "my-api.jar", "--server.port=8080"]
-
     FROM sctrcdr/spring-boot-web:1.1
 
     MAINTAINER Stephen Masters <steve@scattercode.co.uk>
 
-    COPY target/client-comms-*.jar client-comms.jar
+    COPY target/my-api-*.jar my-api.jar
 
-    ENTRYPOINT ["java", "-jar", "client-comms.jar", "--server.port=8080"]
+    ENTRYPOINT ["java", "-jar", "my-api.jar", "--server.port=8080"]
