@@ -1,6 +1,6 @@
 To use, create a Dockerfile for your application container.
 
-Copy your application JAR files into the working directoryand set your entrypoint to execute the JAR.
+Copy your application JAR files into the working directory and set your entrypoint to execute the JAR.
 
 For example:
 
