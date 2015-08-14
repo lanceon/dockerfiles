@@ -8,3 +8,5 @@ RUN apt-get update
 
 # Should be able to find OpenJDK now. 
 RUN apt-get install -y openjdk-8-jre-headless
+
+RUN update-ca-certificates -f
