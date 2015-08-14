@@ -9,4 +9,5 @@ RUN apt-get update
 # Should be able to find OpenJDK now. 
 RUN apt-get install -y openjdk-8-jre-headless
 
+# By default, Ubuntu doesn't have some required CA Certs. Get them.
 RUN update-ca-certificates -f
