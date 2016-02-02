@@ -1,4 +1,4 @@
-FROM ingeus/php-base:1.0
+FROM ingeus/php-base:latest
 MAINTAINER Stephen Masters <steve@scattercode.co.uk>
 
 WORKDIR /var/www/limesurvey
