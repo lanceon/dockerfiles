@@ -1,4 +1,4 @@
-FROM ingeus/openjdk8:1.1
+FROM ingeus/openjdk8:latest
 
 MAINTAINER Stephen Masters <steve@scattercode.co.uk>
 

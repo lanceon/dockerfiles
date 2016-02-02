@@ -1,4 +1,4 @@
-FROM ingeus/spring-boot-web:1.1
+FROM ingeus/spring-boot-web:latest
 
 MAINTAINER Stephen Masters <steve@scattercode.co.uk>
 
