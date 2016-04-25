@@ -14,4 +14,7 @@ RUN apt-cache policy docker-engine
 RUN apt-get install -y docker-engine
 RUN usermod -aG docker jenkins
 
+
+CMD ["service docker restart"]
+
 USER jenkins
