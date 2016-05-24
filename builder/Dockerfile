@@ -10,7 +10,7 @@ RUN apt-get install -y apt-transport-https ca-certificates && apt-key adv --keys
 RUN apt-get update
 RUN apt-get install -y linux-image-extra-$(uname -r) && apt-get install -y docker-engine apparmor ruby-full nodejs
 
-RUN gem install sass
+RUN gem install sass --version 3.4.22
 
 RUN npm i -g grunt-cli bower
 
